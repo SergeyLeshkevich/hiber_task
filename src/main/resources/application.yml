@@ -1,0 +1,20 @@
+url: jdbc:postgresql://localhost:5432/hibernate_task_db
+user: postgres
+password: admin
+driver: org.postgresql.Driver
+paginated_size_key: 15
+cachePrepStmts: true
+prepStmtCacheSize: 250
+prepStmtCacheSqlLimit: 2048
+server:
+  port: 8080
+  tomcat:
+    connection-timeout: 20s
+    relaxedQueryChars: "[,]"
+    relaxedPathChars: "[,]"
+  compression:
+    enabled: true
+    mime-types: "application/json"
+  error:
+    whitelabel:
+      enabled: false
