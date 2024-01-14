@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+      file: insert-changeset-houses-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: insert-changeset-passports-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: insert-changeset-persons-table.sql
+      relativeToChangelogFile: true
+  - include:
+      file: insert-changeset-person_house_ownership-table.sql
+      relativeToChangelogFile: true
